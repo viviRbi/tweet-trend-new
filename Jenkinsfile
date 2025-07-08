@@ -17,7 +17,7 @@ pipeline {
     }
 
     stages {
-        stage('Sonar Queue analysis') {
+        stage('Sonar Queue analysis ') {
             environment {
                 scannerHome = tool 'sonar-scanner'
             }
