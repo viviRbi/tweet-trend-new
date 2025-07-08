@@ -14,9 +14,7 @@ pipeline {
                 sh 'mvn clean deploy -DskipTests'
             }
         }
-    }
 
-    stages {
         stage('Sonar Queue analysis ') {
             environment {
                 scannerHome = tool 'sonar-scanner'
