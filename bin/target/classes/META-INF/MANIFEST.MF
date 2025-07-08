@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: thaov
+Build-Jdk: 17.0.9
+Implementation-Title: demo-workshop
+Implementation-Version: 2.1.2
+Implementation-Vendor-Id: com.valaxy
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/demo-workshop
+Created-By: Maven Integration for Eclipse
+
